@@ -50,3 +50,17 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.Production.json
+
+# Gereksiz dosyaları ekleme
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
